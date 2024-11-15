@@ -181,8 +181,35 @@ button {
   border: 1px solid black;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (max-width: 768px) {
   body {
+    padding: 0;
+  }
+
+  .tasks {
     width: 100%;
+    padding: 0;
+    border: none;
+  }
+
+  .task-1, .task-2, .task-3, .task-4, .task-5 {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .todo-list li {
+    width: 100%;
+    padding: 5px;
+  }
+
+  input, button {
+    width: 100%;
+  }
+
+  /* Ensure carousel images fit on mobile */
+  .carousel-image {
+    max-width: 90%;
+    height: auto;
   }
 }
