@@ -13,8 +13,8 @@ function App() {
   const [errorMessage, setErrorMessage] = useState('')
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [calcResult, setCalcResult] = useState(null);
-  const [calcInput1, setCalcInput1] = useState(0);
-  const [calcInput2, setCalcInput2] = useState(0);
+  const [calcInput1, setCalcInput1] = useState(null);
+  const [calcInput2, setCalcInput2] = useState(null);
 
   // Задание 1: Основные алгоритмические задачи (1 час)
 

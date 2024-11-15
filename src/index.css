@@ -164,14 +164,6 @@ span {
   border: 1px solid black;
 }
 
-input {
-  width: 150px;
-}
-
-button {
-  width: 300px;
-}
-
 .todo-list button {
   width: 50px;
 }
@@ -179,6 +171,16 @@ button {
 .task-5 {
   margin: 20px;
   border: 1px solid black;
+}
+
+.galery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.galery button {
+  width: 50%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -201,10 +203,6 @@ button {
   .todo-list li {
     width: 100%;
     padding: 5px;
-  }
-
-  input, button {
-    width: 80%;
   }
 
   .users ul {
