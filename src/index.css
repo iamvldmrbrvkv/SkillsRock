@@ -204,14 +204,15 @@ button {
   }
 
   input, button {
-    width: 100%;
+    width: 80%;
   }
 
-  .carousel-image {
+  .users ul {
     width: 100%;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
   }
 }
