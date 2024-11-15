@@ -105,6 +105,10 @@ span {
   color: grey;
 }
 
+.todo-list li {
+  cursor: pointer;
+}
+
 .users ul {
   width: 90%;
   align-items: center;
@@ -175,4 +179,10 @@ button {
 .task-5 {
   margin: 20px;
   border: 1px solid black;
+}
+
+@media only screen and (min-width: 769px) {
+  body {
+    width: 100%;
+  }
 }
