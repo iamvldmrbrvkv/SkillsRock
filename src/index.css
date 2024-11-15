@@ -207,9 +207,11 @@ button {
     width: 100%;
   }
 
-  /* Ensure carousel images fit on mobile */
   .carousel-image {
-    max-width: 90%;
+    width: 100%;
+    max-width: 100%;
     height: auto;
+    margin: 0 auto;
+    display: block;
   }
 }
